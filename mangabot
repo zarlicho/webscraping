@@ -2,7 +2,7 @@ import requests
 from lxml import html
 import telebot
 
-api = 'Telegram-Api'
+api = '1379341279:AAGoThRKfY_ULGdahAlRGy5CSj16hHQufaE'
 bot = telebot.TeleBot("api")
 
 path = "/html/body/div[3]/div/section[2]/div[2]/div[1]/a/@href"  # untuk url dari keyword
